@@ -114,7 +114,7 @@ A C-based console application for Rara Cafe's beverage ordering system. This pro
 
 ---
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
 - Replace `goto` with function calls for better structure
 - Add inventory management
