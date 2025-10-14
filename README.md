@@ -3,28 +3,28 @@ A C-based console application for Rara Cafe's beverage ordering system. This pro
 
 ---
 
-## 🚀 Features
+## Features
 
-### 📋 Menu System
+### Menu System
 - **Hot Beverages Menu** - 7 options (Espresso, Americano, Cappucino, etc.)
 - **Cold Beverages Menu** - 6 options (Americano, Mochaccino, Milk Tea, etc.)
 - **Toppings Selection** - 5 add-ons (Pearl, Grass Jelly, Oreo, etc.)
 
-### ⚙️ Customization Options
+### Customization Options
 - **Sugar Levels** - Normal, Half, Slight, None
 - **Ice Levels** - Normal, Half, None (cold beverages only)
 - **Multiple Quantities** - Order multiple cups of same beverage
 
-### 💰 Payment System
+### Payment System
 - **Automatic Tax Calculation** - 6% government tax
 - **Itemized Receipt** - Subtotal, tax, and grand total
 - **Multiple Orders** - Add multiple beverages in one session
 
 ---
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
-### 📊 Menu Pricing
+### Menu Pricing
 
 #### Hot Beverages
 | Beverage | Price |
@@ -55,7 +55,7 @@ A C-based console application for Rara Cafe's beverage ordering system. This pro
 
 ---
 
-## 🔧 Code Structure
+## Code Structure
 
 ### Main Components
 - **User Input Validation** - Error handling for invalid inputs  
