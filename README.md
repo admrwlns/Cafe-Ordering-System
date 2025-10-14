@@ -71,3 +71,57 @@ A C-based console application for Rara Cafe's beverage ordering system. This pro
 - **Mathematical Calculations** - Price computations with tax
 
 ---
+
+## Error Handling
+
+- **Input Validation** - All user inputs are validated
+- **Range Checking** - Beverage numbers, sugar/ice levels, toppings
+- **Quantity Validation** - Minimum 1 cup required
+- **Menu Navigation** - Prevents invalid menu selections
+
+---
+
+## Program Flow
+
+1. **Welcome Screen** - User enters '1' to continue
+2. **Menu Selection** - Choose between hot/cold beverages
+3. **Beverage Selection** - Pick from available options
+4. **Customization** - Sugar level, ice level (cold only), toppings
+5. **Quantity** - Specify number of cups
+6. **Repeat or Checkout** - Add more items or proceed to payment
+7. **Receipt Generation** - Display final bill with tax
+8. **Payment Confirmation** - Finalize order
+
+---
+
+## Code Features
+
+### Constants
+- `taxRate = 0.06` - 6% government tax
+- Fixed beverage and topping prices
+
+### Variables
+- `priceBeverage` - Base beverage price
+- `priceTop` - Topping additional cost
+- `sum` - Running total
+- `grandTotal` - Final amount with tax
+
+### Control Structures
+- `while` loops for input validation
+- `switch` statements for menu selections
+- `if-else` for conditional logic
+- `goto` for menu navigation
+
+---
+
+## 🔄 Future Enhancements
+
+- Replace `goto` with function calls for better structure
+- Add inventory management
+- Implement loyalty program
+- Add database integration for order history
+- Include seasonal promotions
+- Add admin mode for price updates
+
+---
+
